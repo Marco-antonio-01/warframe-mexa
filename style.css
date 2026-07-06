@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background: #f4d8d8;
+    color: #3b1a1a;
+}
+
+/* NAV */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: white;
+    align-items: center;
+}
+
+.logo {
+    font-size: 28px;
+}
+
+.menu-icon {
+    font-size: 28px;
+    cursor: pointer;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    background: #d8a9b8;
+    padding: 40px;
+    align-items: center;
+    flex-wrap: wrap; /* IMPORTANTE para que no se rompa en pantallas pequeñas */
+}
+
+.hero-text h1 {
+    font-size: 45px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.hero-img {
+    width: 350px;
+    max-width: 100%;
+}
+
+/* BOTONES */
+.btn {
+    background: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn2 {
+    background: #b36a75;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* BESTSELLERS */
+.bestsellers {
+    text-align: center;
+    background: white;
+    padding: 50px;
+}
+
+.product-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    flex-wrap: wrap; /* Para que no se descuadre */
+}
+
+.product img {
+    width: 140px;
+}
+
+/* SALE */
+.sale {
+    display: flex;
+    justify-content: space-between;
+    background: #d8a9b8;
+    padding: 40px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sale-img {
+    width: 350px;
+    max-width: 100%;
+}
+
+.sale-text h2 {
+    font-size: 35px;
+    width: 300px;
+}
+
+/* TESTIMONIALS */
+.testimonials {
+    background: #f3b9c4;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.flower-img {
+    width: 140px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+/* FOOTER */
+footer {
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+footer h3, footer h2 {
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.icons span {
+    margin-right: 10px;
+    font-size: 20px;
+}
