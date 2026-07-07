@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: 'Georgia', serif;
     background: #f4d8d8;
-    color: #3b1a1a;
+    color: #3b1;
 }
 
 /* NAV */
@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background: white;
+    background: red;
     align-items: center;
 }
 
